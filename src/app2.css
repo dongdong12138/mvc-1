@@ -1,0 +1,25 @@
+#app2 > ul.tab-bar {
+    display: flex;
+}
+#app2 > ul.tab-bar > li {
+    padding: 4px 8px;
+    cursor: pointer;
+}
+#app2 > ul.tab-bar > li:nth-child(1) {
+    background-color: red;
+}
+#app2 > ul.tab-bar > li:nth-child(2) {
+    background-color: green;
+}
+
+#app2 > ul.tab-content > li {
+    display: none;
+}
+#app2 > ul.tab-content > li:nth-child(1) {
+    height: 200px;
+    background-color: red;
+}
+#app2 > ul.tab-content > li:nth-child(2) {
+    height: 200px;
+    background-color: green;
+}
